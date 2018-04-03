@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="225a6cce-ded2-47ce-976b-d86db7ef3fbd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/client/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -134,6 +146,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/controller/admin/slider.js" />
         <option value="$PROJECT_DIR$/controller/client/main.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
       </list>
     </option>
   </component>
@@ -182,6 +195,11 @@
             <path>
               <item name="study-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-server" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-server" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +309,7 @@
       <updated>1522675540112</updated>
       <workItem from="1522675541323" duration="1821000" />
       <workItem from="1522677372787" duration="819000" />
-      <workItem from="1522678332289" duration="44456000" />
+      <workItem from="1522678332289" duration="45768000" />
     </task>
     <task id="LOCAL-00001" summary="后台雏形完成">
       <created>1522786345559</created>
@@ -304,7 +322,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47096000" />
+    <option name="totallyTimeSpent" value="48408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3191" y="239" width="2118" height="1293" extended-state="6" />
@@ -593,6 +611,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding />
         </state>
       </provider>
