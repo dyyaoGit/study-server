@@ -1,0 +1,1 @@
+const {Router} = require("express");const router = Router();const video = require("./main");router.use("/main",video)module.exports = router;

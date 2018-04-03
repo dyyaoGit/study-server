@@ -4,9 +4,15 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var upload = require("./controller/upload");
-var getErr = require("./controller/bad");
-var moogooseConfig = require("./database/config")
+
+var moogooseConfig = require("./database/config");
+
+var videos = require("./controller/admin/video");
+var videosCategory = require("./controller/admin/videosCategory");
+var upload = require("./controller/admin/upload");
+var slider = require("./controller/admin/slider");
+var clientApi = require("./controller/client/index");
+
 
 var app = express();
 
@@ -22,8 +28,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use("/", upload)
-app.use("/", getErr)
+app.use("/adminApi", upload);
+app.use("/adminApi/videos", videos);
+app.use("/adminApi/videosCategory", videosCategory);
+app.use("/adminApi/slider", slider);
+app.use("/clientApi", clientApi);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

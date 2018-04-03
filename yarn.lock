@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"4.1.1@^1.0.1":
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/4.1.1/download/4.1.1-1.0.1.tgz#101609ae1c0b39c3bd43efa3e33fca33fc51503e"
+
 accepts@~1.3.3:
   version "1.3.5"
   resolved "http://registry.npm.taobao.org/accepts/download/accepts-1.3.5.tgz#eb777df6011723a3b14e8a72c0805c8e86746bd2"

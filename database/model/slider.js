@@ -1,0 +1,1 @@
+const mongoose = require("mongoose");const sliderSchema = new mongoose.Schema({    title: {        type: String    },    url: {        type: String    },    sort: {        type: Number    }},{versionKey: false})module.exports = mongoose.model("slider", sliderSchema)
