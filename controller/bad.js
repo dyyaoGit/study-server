@@ -1,0 +1,1 @@
+var express = require("express");var router = express.Router();router.get("/getErr", (req, res) => {    res.status(401).send('Forbidden')})module.exports = router;

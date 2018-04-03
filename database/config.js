@@ -1,0 +1,1 @@
+const mongoose = require("mongoose");mongoose.connect('mongodb://localhost/ketang');var db = mongoose.connection;db.once("open",() => {    console.log("数据库连接成功")})
